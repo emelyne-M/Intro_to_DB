@@ -1,14 +1,4 @@
--- task_4.sql
-SELECT 
-    COLUMN_NAME AS 'Column',
-    COLUMN_TYPE AS 'Type',
-    IS_NULLABLE AS 'Null',
-    COLUMN_KEY AS 'Key',
-    COLUMN_DEFAULT AS 'Default',
-    EXTRA AS 'Extra'
-FROM 
-    INFORMATION_SCHEMA.COLUMNS
-WHERE 
-    TABLE_SCHEMA = 'alx_book_store'  -- replace with your database name
-    AND TABLE_NAME = 'Books';
 
+
+INSERT INTO customer (customer_id, customer_name, email, address)
+VALUES (1, 'Cole Baidoo', 'cbaidoo@sandtech.com', '123 Happiness Ave.');
